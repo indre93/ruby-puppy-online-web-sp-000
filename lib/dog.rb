@@ -10,7 +10,7 @@ class Dog
 
   def self.all
     @@all.each do |dog|
-      dog.name
+      return dog.name
     end
   end
 
